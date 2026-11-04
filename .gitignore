@@ -1,0 +1,12 @@
+# Build output
+bin/
+obj/
+
+# IDE
+.idea/
+.vs/
+*.user
+
+# Local log files (Serilog file sink: "logs/api-.log" in appsettings.json)
+**/logs/
+*.log

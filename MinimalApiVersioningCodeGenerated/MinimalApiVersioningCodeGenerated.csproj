@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- API Versioning for .NET 10 & OpenAPI integration -->
+        <PackageReference Include="Asp.Versioning.Http" Version="10.2.3" />
+        <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="10.2.1" />
+        <PackageReference Include="Asp.Versioning.OpenApi" Version="10.2.2" />
+
+        <!-- Logging Framework -->
+        <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+
+        <!-- Application Architecture & Validation -->
+        <PackageReference Include="MediatR" Version="14.2.0" />
+        <PackageReference Include="FluentValidation" Version="12.2.0" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.2.0" />
+
+        <!-- Documentation & API Reference UI -->
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+        <PackageReference Include="Scalar.AspNetCore" Version="2.9.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Feature\TestFeature\Mappers\" />
+      <Folder Include="logs\" />
+    </ItemGroup>
+
+</Project>
