@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="MinimalApiVersioningCodeGenerated.AppHost/MinimalApiVersioningCodeGenerated.AppHost.csproj" />
+  <Project Path="MinimalApiVersioningCodeGenerated.ServiceDefaults/MinimalApiVersioningCodeGenerated.ServiceDefaults.csproj" />
   <Project Path="MinimalApiVersioningCodeGenerated/MinimalApiVersioningCodeGenerated.csproj" />
 </Solution>

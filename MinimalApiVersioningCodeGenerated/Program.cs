@@ -11,6 +11,8 @@ try
 
 	var builder = WebApplication.CreateBuilder(args);
 
+    builder.AddServiceDefaults();
+
 	builder.AddSerilogLogging();
 
 	builder.Services
@@ -20,6 +22,8 @@ try
 		.AddVersionedApi();
 
 	var app = builder.Build();
+
+    app.MapDefaultEndpoints();
 
 	app.SeedProducts()
 		.UseApiPipeline();
