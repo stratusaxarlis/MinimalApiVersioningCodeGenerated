@@ -10,7 +10,7 @@
         <!-- API Versioning for .NET 10 & OpenAPI integration -->
         <PackageReference Include="Asp.Versioning.Http" Version="10.2.3" />
         <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="10.2.1" />
-        <PackageReference Include="Asp.Versioning.OpenApi" Version="10.2.2" />
+        <PackageReference Include="Asp.Versioning.OpenApi" Version="10.2.3" />
 
         <!-- Logging Framework -->
         <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
@@ -23,8 +23,8 @@
 
         <!-- Documentation & API Reference UI -->
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
-        <PackageReference Include="Scalar.AspNetCore" Version="2.9.0" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
+        <PackageReference Include="Scalar.AspNetCore" Version="2.18.7" />
+        <PackageReference Include="Serilog.Sinks.OpenTelemetry" Version="4.2.0" />
     </ItemGroup>
 
     <ItemGroup>
